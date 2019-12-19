@@ -5,7 +5,13 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "babel-eslint": "^10.0.3",
+    "chart.js": "^2.9.3",
     "chartist": "^0.11.4",
+    "chartist-plugin-fill-donut": "^0.1.4",
+    "chartist-plugin-tooltips": "0.0.17",
+    "datatables.net": "^1.10.20",
+    "datatables.net-responsive": "^2.2.3",
+    "datatables.net-select": "^1.3.1",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
