@@ -12,76 +12,76 @@ class Home extends Component {
   render() {
     return (
       <div id="main">
-      <div class="row">
-        <div class="content-wrapper-before gradient-45deg-indigo-purple"></div>
-        <div class="col s12">
-          <div class="container">
-          <div class="section section-data-tables">
+      <div className="row">
+        <div className="content-wrapper-before gradient-45deg-indigo-purple"></div>
+        <div className="col s12">
+          <div className="container">
+          <div className="section section-data-tables">
           {/* BLOCOS DE CARDS */}
           <div id="card-stats">
 
-             <div class="row">
-              <div class="col s12 m6 l6 xl3">
-               <div class="card gradient-45deg-light-blue-cyan gradient-shadow min-height-100 white-text animate fadeLeft">
-                <div class="padding-4">
-                   <div class="col s4 m4">
-                    <i class="material-icons background-round mt-5">add_shopping_cart</i>
+             <div className="row">
+              <div className="col s12 m6 l6 xl3">
+               <div className="card gradient-45deg-light-blue-cyan gradient-shadow min-height-100 white-text animate fadeLeft">
+                <div className="padding-4">
+                   <div className="col s4 m4">
+                    <i className="material-icons background-round mt-5">add_shopping_cart</i>
                    </div>
-                   <div class="col s8 m8 right-align">
-                    <p class="no-margin">R$</p>
-                    <h5 class="no-margin white-text">690,00</h5>
+                   <div className="col s8 m8 right-align">
+                    <p className="no-margin">R$</p>
+                    <h5 className="no-margin white-text">690,00</h5>
                    </div>
-                  <div class="col s12 m12">
+                  <div className="col s12 m12">
                     <p>Total Bruto</p>
                   </div>
                 </div>
                </div>
               </div>
-              <div class="col s12 m6 l6 xl3">
-               <div class="card gradient-45deg-red-pink gradient-shadow min-height-100 white-text animate fadeLeft">
-                <div class="padding-4">
-                   <div class="col s4 m4">
-                    <i class="material-icons background-round mt-5">perm_identity</i>
+              <div className="col s12 m6 l6 xl3">
+               <div className="card gradient-45deg-red-pink gradient-shadow min-height-100 white-text animate fadeLeft">
+                <div className="padding-4">
+                   <div className="col s4 m4">
+                    <i className="material-icons background-round mt-5">perm_identity</i>
                    </div>
-                   <div class="col s8 m8 right-align">
-                    <p class="no-margin">R$</p>
-                    <h5 class="no-margin white-text">6,00</h5>
+                   <div className="col s8 m8 right-align">
+                    <p className="no-margin">R$</p>
+                    <h5 className="no-margin white-text">6,00</h5>
                    </div>
-                  <div class="col s12 m12">
+                  <div className="col s12 m12">
                     <p>Taxas e Serviços</p>
                   </div>
                 </div>
                </div>
               </div>
-              <div class="col s12 m6 l6 xl3">
-               <div class="card gradient-45deg-amber-amber gradient-shadow min-height-100 white-text animate fadeRight">
-                <div class="padding-4">
-                   <div class="col s4 m4">
-                    <i class="material-icons background-round mt-5">timeline</i>
+              <div className="col s12 m6 l6 xl3">
+               <div className="card gradient-45deg-amber-amber gradient-shadow min-height-100 white-text animate fadeRight">
+                <div className="padding-4">
+                   <div className="col s4 m4">
+                    <i className="material-icons background-round mt-5">timeline</i>
                    </div>
-                   <div class="col s8 m8 right-align">
-                    <p class="no-margin">R$</p>
-                    <h5 class="no-margin white-text">670,00</h5>
+                   <div className="col s8 m8 right-align">
+                    <p className="no-margin">R$</p>
+                    <h5 className="no-margin white-text">670,00</h5>
                    </div>
-                  <div class="col s12 m12">
+                  <div className="col s12 m12">
                     <p>Total Líquido</p>
                   </div>
                 </div>
                </div>
               </div>
-              <div class="col s12 m6 l6 xl3">
-               <div class="card gradient-45deg-green-teal gradient-shadow min-height-100 white-text animate fadeRight">
-                <div class="padding-4">
-                   <div class="col s4 m4">
-                    <i class="material-icons background-round mt-5">attach_money</i>
+              <div className="col s12 m6 l6 xl3">
+               <div className="card gradient-45deg-green-teal gradient-shadow min-height-100 white-text animate fadeRight">
+                <div className="padding-4">
+                   <div className="col s4 m4">
+                    <i className="material-icons background-round mt-5">attach_money</i>
                    </div>
-                   <div class="col s8 m8 right-align">
-                    <p class="no-margin">R$</p>
-                    <h5 class="no-margin white-text">690,00</h5>
+                   <div className="col s8 m8 right-align">
+                    <p className="no-margin">R$</p>
+                    <h5 className="no-margin white-text">690,00</h5>
                    </div>
-                  <div class="col s12 m12">
-                    <p class="col s8 m8" style={{padding: '0px'}}>Saque disponível</p>
-                    <button class="btn waves-effect waves-light col s4 m4" type="submit" name="action" style={{
+                  <div className="col s12 m12">
+                    <p className="col s8 m8" style={{padding: '0px'}}>Saque disponível</p>
+                    <button className="btn waves-effect waves-light col s4 m4" type="submit" name="action" style={{
                     backgroundColor: '#289e66',paddingLeft: '5px', paddingRight: '5px', fontSize: '12px',textTransform: 'inherit',borderRadius: '45px',top: '8px'}}>Sacar</button>
                   </div>
                 </div>
@@ -92,36 +92,36 @@ class Home extends Component {
 
            {/* END: BLOCOS DE CARDS */}
            {/* TABELA */}
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                <div class="card-content">
-                  <h4 class="card-title"><strong>VENDAS A RECEBER</strong></h4>
-                  <div class="row">
-                  <div class="col s12">
-                    <p class="col s4 m4">
-                      <a class="mb-6 btn-floating waves-effect waves-light gradient-45deg-amber-amber" style={{color:'#000',width: '20px',height: '20px',top: '5px'}}>
-                        <i class="material-icons"></i>
+            <div className="row">
+              <div className="col s12">
+                <div className="card">
+                <div className="card-content">
+                  <h4 className="card-title"><strong>VENDAS A RECEBER</strong></h4>
+                  <div className="row">
+                  <div className="col s12">
+                    <p className="col s4 m4">
+                      <a className="mb-6 btn-floating waves-effect waves-light gradient-45deg-amber-amber" style={{color:'#000',width: '20px',height: '20px',top: '5px'}}>
+                        <i className="material-icons"></i>
                       </a>
                       Aguardando
                     </p>
-                    <p class="col s4 m4">
-                      <a class="mb-6 btn-floating waves-effect waves-light gradient-45deg-green-teal" style={{color:'#000',width: '20px',height: '20px',top: '5px'}}>
-                        <i class="material-icons"></i>
+                    <p className="col s4 m4">
+                      <a className="mb-6 btn-floating waves-effect waves-light gradient-45deg-green-teal" style={{color:'#000',width: '20px',height: '20px',top: '5px'}}>
+                        <i className="material-icons"></i>
                       </a>
                       Disponível
                     </p>
-                    <p class="col s4 m4">
-                      <a class="mb-6 btn-floating waves-effect waves-light gradient-45deg-purple-deep-orange gradient-shadow" style={{color:'#000',width: '20px',height: '20px',top: '5px'}}>
-                        <i class="material-icons"></i>
+                    <p className="col s4 m4">
+                      <a className="mb-6 btn-floating waves-effect waves-light gradient-45deg-purple-deep-orange gradient-shadow" style={{color:'#000',width: '20px',height: '20px',top: '5px'}}>
+                        <i className="material-icons"></i>
                       </a>
                       Bloqueado
                     </p>
                   </div>
                 </div>
-                  <div class="row">
-                  <div class="col s12">
-                    <table id="page-length-option" class="display">
+                  <div className="row">
+                  <div className="col s12">
+                    <table id="page-length-option" className="display">
                     <thead>
                       <tr>
                       <th>Name</th>

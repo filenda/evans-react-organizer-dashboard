@@ -4,15 +4,15 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header class="page-topbar" id="header">
-      <div class="navbar navbar-fixed">
-        <nav class="navbar-main navbar-color nav-collapsible sideNav-lock navbar-dark gradient-45deg-indigo-purple no-shadow">
-          <div class="nav-wrapper">
-            <div class="header-search-wrapper hide-on-med-and-down">
-              <i class="material-icons">search</i>
-              <a class="waves-effect waves-light btn mb-1 gradient-45deg-purple-deep-orange z-depth-4 mr-1 mb-2">
+    <header className="page-topbar" id="header">
+      <div className="navbar navbar-fixed">
+        <nav className="navbar-main navbar-color nav-collapsible sideNav-lock navbar-dark gradient-45deg-indigo-purple no-shadow">
+          <div className="nav-wrapper">
+            <div className="header-search-wrapper hide-on-med-and-down">
+              <i className="material-icons">search</i>
+              <a className="waves-effect waves-light btn mb-1 gradient-45deg-purple-deep-orange z-depth-4 mr-1 mb-2">
                 <i
-                  class="material-icons left"
+                  className="material-icons left"
                   style={{ fontSize: '16px', position: 'initial' }}
                 >
                   content_copy
@@ -20,11 +20,11 @@ export default function Header() {
                 Meu Cardápio
               </a>
               <a
-                class="waves-effect waves-light btn mb-1 z-depth-4 mr-1 mb-2"
+                className="waves-effect waves-light btn mb-1 z-depth-4 mr-1 mb-2"
                 style={{ background: '#fff', color: '#6827a1' }}
               >
                 <i
-                  class="material-icons left"
+                  className="material-icons left"
                   style={{
                     fontSize: '16px',
                     position: 'initial',
@@ -36,22 +36,22 @@ export default function Header() {
                 Criar Evento
               </a>
             </div>
-            <ul class="navbar-list right">
-              <li class="hide-on-med-and-down">
+            <ul className="navbar-list right">
+              <li className="hide-on-med-and-down">
                 <a
-                  class="waves-effect waves-block waves-light toggle-fullscreen"
+                  className="waves-effect waves-block waves-light toggle-fullscreen"
                   href="javascript:void(0);"
                 >
-                  <i class="material-icons">settings_overscan</i>
+                  <i className="material-icons">settings_overscan</i>
                 </a>
               </li>
               <li>
                 <a
-                  class="waves-effect waves-block waves-light profile-button"
+                  className="waves-effect waves-block waves-light profile-button"
                   href="javascript:void(0);"
                   data-target="profile-dropdown"
                 >
-                  <span class="avatar-status avatar-online">
+                  <span className="avatar-status avatar-online">
                     <img
                       src="app-assets/images/avatar/avatar-7.png"
                       alt="avatar"
@@ -62,30 +62,30 @@ export default function Header() {
               </li>
             </ul>
 
-            <ul class="dropdown-content" id="profile-dropdown">
+            <ul className="dropdown-content" id="profile-dropdown">
               <li>
                 <a
-                  class="grey-text text-darken-1"
+                  className="grey-text text-darken-1"
                   href="user-profile-page.html"
                 >
-                  <i class="material-icons">person_outline</i> Perfil
+                  <i className="material-icons">person_outline</i> Perfil
                 </a>
               </li>
-              <li class="divider"></li>
+              <li className="divider"></li>
               <li>
-                <a class="grey-text text-darken-1" href="user-login.html">
-                  <i class="material-icons">keyboard_tab</i> Sair
+                <a className="grey-text text-darken-1" href="user-login.html">
+                  <i className="material-icons">keyboard_tab</i> Sair
                 </a>
               </li>
             </ul>
           </div>
-          <nav class="display-none search-sm">
-            <div class="nav-wrapper">
+          <nav className="display-none search-sm">
+            <div className="nav-wrapper">
               <form>
-                <div class="input-field">
-                  <a class="waves-effect waves-light btn mb-1 gradient-45deg-purple-deep-orange z-depth-4 mr-1 mb-2">
+                <div className="input-field">
+                  <a className="waves-effect waves-light btn mb-1 gradient-45deg-purple-deep-orange z-depth-4 mr-1 mb-2">
                     <i
-                      class="material-icons left"
+                      className="material-icons left"
                       style={{ fontSize: '16px', position: 'initial' }}
                     >
                       content_copy
@@ -93,11 +93,11 @@ export default function Header() {
                     Meu Cardápio
                   </a>
                   <a
-                    class="waves-effect waves-light btn mb-1 z-depth-4 mr-1 mb-2"
+                    className="waves-effect waves-light btn mb-1 z-depth-4 mr-1 mb-2"
                     style={{ background: '#fff', color: '#6827a1' }}
                   >
                     <i
-                      class="material-icons left"
+                      className="material-icons left"
                       style={{
                         fontSize: '16px',
                         position: 'initial',

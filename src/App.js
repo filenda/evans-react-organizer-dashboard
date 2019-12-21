@@ -5,6 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 import 'materialize-css/dist/css/materialize.min.css';
 import 'animate.css/animate.min.css';
 import 'chartist/dist/chartist.min.css';
+import 'chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css';
+
 /* end - third party styles */
 
 /* begin - third paty scripts */
