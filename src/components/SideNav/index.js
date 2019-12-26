@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 // import { Container } from './styles';
 
@@ -31,12 +32,28 @@ class SideNav extends Component {
             <i className="navigation-header-icon material-icons">more_horiz</i>
           </li>
           <li className="active bold">
-            <a className="waves-effect waves-cyan " href="#">
+            <Link to="/" className="waves-effect waves-cyan ">
               <i className="material-icons">settings_input_svideo</i>
               <span className="menu-title" data-i18n="">
-                Dashboard
+                Home
               </span>
-            </a>
+            </Link>
+          </li>
+          <li className="bold">
+            <Link to="/Menu" className="waves-effect waves-cyan ">
+              <i class="material-icons">restaurant_menu</i>
+              <span className="menu-title" data-i18n="">
+                Cardápio
+              </span>
+            </Link>
+          </li>
+          <li className="bold">
+            <Link to="/Orders" className="waves-effect waves-cyan ">
+              <i class="material-icons">menu_book</i>
+              <span className="menu-title" data-i18n="">
+                Pedidos
+              </span>
+            </Link>
           </li>
           <li className="bold">
             <a className="collapsible-header waves-effect waves-cyan " href="#">
